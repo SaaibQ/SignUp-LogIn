@@ -4,7 +4,7 @@
   "description": "\"Login/Sign-in Page",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Qazi Saaib",
   "license": "ISC",
