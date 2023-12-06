@@ -10,8 +10,7 @@ const app = express();
 app.use(express.static("public"));
 
 app.use(express.json());
-// app.use("/api/user", userRouter);
-app.use("/simple-signup-login", userRouter);
+app.use("/api/user", userRouter);
 
 // Global Error Middleware
 app.use(globalErrorMiddleware);
