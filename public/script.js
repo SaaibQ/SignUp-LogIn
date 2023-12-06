@@ -81,6 +81,5 @@ action_btn.addEventListener("click", function (e) {
     post_sign_in_details();
   } else if (btn.classList.contains("login_btn")) {
     log_in_details();
-    message_box.classList.add("slide-in");
   }
 });
